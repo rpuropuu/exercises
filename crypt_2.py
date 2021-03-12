@@ -12,3 +12,5 @@ for ch in string[1:]:
 result += (currCh + str(currCount))
 
 print(result)
+
+set(a)
