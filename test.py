@@ -1,9 +1,17 @@
-import collections
-final_string = ''
-a = [str(i) for i in input().split()]
-ready_string = ([item for item, count in collections.Counter(a).items() if count > 1])
+numbers = int(input())
+cnt = 1
+mark = 0
+for i in range(numbers):
+    if mark >= numbers:
+        break
+    print(cnt, end=' ')
+    if numbers == 1:
+        break
+    cnt += 1
+    mark += 1
+    for j in range(i+1):
+        if mark >= numbers:
+            break
+        print(cnt, end=' ')
+        mark += 1
 
-for i in ready_string:
-    final_string += str(i) + ' '
-
-print(final_string)
