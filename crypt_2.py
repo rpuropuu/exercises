@@ -13,4 +13,3 @@ result += (currCh + str(currCount))
 
 print(result)
 
-set(a)
