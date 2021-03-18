@@ -17,7 +17,7 @@ def update_dictionary(d, key, value):
 # битовый сдвиг
 def update_dictionary2(d, key, value):
     key <<= key not in d
-    d.setdefault(key,[]).append(value) # создаётся ключ без содержания
+    d.setdefault(key, []).append(value) # создаётся ключ без содержания
 
 # сложно
 def update_dictionary3(d, key, value):
