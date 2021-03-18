@@ -1,4 +1,4 @@
-# вод стркои через пробел
+# выводит чаще всего встречающиеся слова из текста без учёта регистра
 new_st = []
 temp_st = []
 st = '''ZdXaXXa pY UcdZYpX ZdXaXXa ZdXaXXa pXUXp pcYUXT YUb ZYpYZZXcT TdTacYUTT p TbaadZdbb ZYpYZZXcT ddZY YTYabpUU bYaUdYdT XYad ZdpY pXUXp YTYabpUU XYad YYpaX aYp dUZ XXab ZdXaXXa XT aTTbZdbZ aTTbZdbZ Z bdXabc pXXZc TZb b
@@ -22,6 +22,3 @@ for i in new_st:
         if new_st.count(i) >= 6:
             print(i, new_st.count(i))
         temp_st.append(i)
-
-#for key, value in new_st.items():
-#    print(key, value, end=' ')
