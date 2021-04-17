@@ -4,7 +4,7 @@ import os
 
 
 # директория с исходными фотографиями
-dir_name = r"c:\Users\rpur0\Desktop\_Ub2\Project_1\unpacked"
+dir_name = r"c:\Users\..."
 list_file = os.listdir(dir_name)
 
 
